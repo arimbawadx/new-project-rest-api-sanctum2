@@ -53,7 +53,7 @@ class UserController extends Controller
 
                 return response()->json([
                     'success' => true,
-                    'message' => 'success',
+                    'message' => 'get data success',
                     'data' => $user
                 ]);
             }
