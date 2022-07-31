@@ -27,6 +27,7 @@ Route::get('/', function () {
 })->name('Unauthorized');
 
 Route::get('/verifikasi-pendaftaran/{id}', [AuthController::class, 'VerifikasiReg']);
+Route::get('/gauth', [AuthController::class, 'GAuthExample']);
 
 
 
